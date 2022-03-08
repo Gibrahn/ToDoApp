@@ -1,0 +1,12 @@
+*{
+    text-transform: bold;
+}
+body{
+    text-transform: bold;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    padding: 10px;
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+}
