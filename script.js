@@ -15,11 +15,11 @@ function displayTasks(){
     for(let x=0;x<toDo.length;x++){
         //display the task
         document.getElementById("toDoList").innerHTML+=`
-        <li id="${x}">${toDo[x]} <button onclick="deleteTask(${x});"> Delete </button> </li>
+        <li id="${x}"> ${toDo[x]} <button onclick="deleteTask(${x});"> Delete </button> </li>
         `;
     }
 }
 function deleteTask(id){
     document.getElementById(id).remove(); //remove element from HtmL
-    names.splice(id, 1);// remove the element from the array
+    toDo.splice(id, 1);// remove the element from the array
 }
